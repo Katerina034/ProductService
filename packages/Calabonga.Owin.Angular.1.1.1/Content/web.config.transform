@@ -1,0 +1,7 @@
+﻿<configuration>
+    <system.webServer>
+        <handlers>
+            <add name="Owin" verb="" path="*" type="Microsoft.Owin.Host.SystemWeb.OwinHttpHandler, Microsoft.Owin.Host.SystemWeb" />
+        </handlers>
+    </system.webServer>
+</configuration>
